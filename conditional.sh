@@ -20,7 +20,13 @@
 
 
 count=19
-if [ $count -eq 10 ]
+if [ $count > 10 ]
 then
     echo The number is $count
+fi
+
+word="abc"
+if [ $word == "abc" ]
+then
+    echo This is true
 fi
