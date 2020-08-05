@@ -30,3 +30,14 @@ if [ $word == "abc" ]
 then
     echo This is true
 fi
+
+count=19
+if [ $count > 10 ]
+then
+    echo IF
+elif [[ $count < 5 ]]
+then 
+    echo ELIF
+else
+    echo ELSE
+fi
